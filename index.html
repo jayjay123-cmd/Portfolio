@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio — EJD</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <a href="Home.html" class="logo">EJD</a>
+
+        <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+            <span></span><span></span><span></span>
+        </button>
+
+        <nav id="nav-menu">
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#services">Services</a>
+            <a href="#cv">Resume</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <section class="home" id="home">
+        <div class="home-img">
+            <img src="image.png.jpg" alt="Profile Picture" width="300">
+        </div>
+        <div class="home-content">
+            <h1>Hi, I'm <span>Elbert Joy Dingal</span></h1>
+            <h3 class="typing-text">I'm a <span>Web Developer</span></h3>
+            <p>Welcome to my portfolio website! I'm a passionate and dedicated individual with a strong interest 
+            in web development and design. I have experience in creating responsive and user-friendly websites 
+            using HTML, CSS, and JavaScript. I am constantly learning and improving my skills to stay up-to-date 
+            with the latest trends in web development. Feel free to explore my portfolio and contact me for any 
+            inquiries or collaborations!</p>
+
+            <div class="social-icons">
+                <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="#"><i class="fa-brands fa-github"></i></a>
+                <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+            </div>
+
+            <a href="#contact" class="btn">Hire Me</a>
+        </div>
+    </section>
+
+    <section class="about" id="about">
+        <div class="about-content">
+            <h1>About Me</h1>
+            <h3><p>Hi, I'm Elbert Joy Dingal, a passionate and dedicated individual with a strong interest in 
+                web development and design. I have experience in creating responsive and user-friendly websites 
+                using HTML, CSS, and JavaScript. I am constantly learning and improving my skills to stay up-to-date 
+                with the latest trends in web development. Feel free to explore my portfolio and contact me for any 
+                inquiries or collaborations!</p></h3>
+        </div>
+        <div class="about-img">
+            <img src="image.png.jpg" width="300" alt="Elbert Joy Dingal">
+        </div>
+    </section>
+
+    <section class="services" id="services">
+
+        <div class="title-box">
+            <h2>SERVICES</h2>
+        </div>
+
+        <div class="intro">
+            <h1>MY <span>SERVICES</span></h1>
+            <p>I offer creative digital services including graphic design, photography, video editing, and web development. My goal is to create modern, visually appealing, and user-friendly projects for clients and personal brands.</p>
+        </div>
+
+        <div class="projects">
+            <h2><span>Services</span></h2>
+            <div class="cards">
+
+                <!-- Card 1 – Graphic Design -->
+                <div class="card design">
+                    <div class="card-img-wrap">
+                        <img class="card-img"
+                            src="https://images.unsplash.com/photo-1626785774573-4b799315345d?w=600&q=80&fit=crop"
+                            alt="Graphic Design" loading="lazy" />
+                        <div class="card-icon"><i class="fas fa-pen-ruler"></i></div>
+                    </div>
+                    <div class="card-body">
+                        <h3>Graphic Design</h3>
+                        <p>Logo design, posters, banners, and social media graphics.</p>
+                        <span class="card-link">
+                            Learn more
+                            <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+                        </span>
+                    </div>
+                </div>
+
+                <!-- Card 2 – Photography -->
+                <div class="card photo">
+                    <div class="card-img-wrap">
+                        <img class="card-img"
+                            src="https://images.unsplash.com/photo-1516035069371-29a1b244cc32?w=600&q=80&fit=crop"
+                            alt="Photography" loading="lazy" />
+                        <div class="card-icon"><i class="fas fa-camera"></i></div>
+                    </div>
+                    <div class="card-body">
+                        <h3>Photography</h3>
+                        <p>Creative and professional photo shoots and editing.</p>
+                        <span class="card-link">
+                            Learn more
+                            <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+                        </span>
+                    </div>
+                </div>
+
+                <!-- Card 3 – Web Development -->
+                <div class="card web">
+                    <div class="card-img-wrap">
+                        <img class="card-img"
+                            src="https://images.unsplash.com/photo-1547658719-da2b51169166?w=600&q=80&fit=crop"
+                            alt="Web Development" loading="lazy" />
+                        <div class="card-icon"><i class="fas fa-code"></i></div>
+                    </div>
+                    <div class="card-body">
+                        <h3>Web Development</h3>
+                        <p>Responsive websites using HTML, CSS, and JavaScript.</p>
+                        <span class="card-link">
+                            Learn more
+                            <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+                        </span>
+                    </div>
+                </div>
+
+                <!-- Card 4 – Video Editing -->
+                <div class="card video">
+                    <div class="card-img-wrap">
+                        <img class="card-img"
+                            src="https://images.unsplash.com/photo-1574717024653-61fd2cf4d44d?w=600&q=80&fit=crop"
+                            alt="Video Editing" loading="lazy" />
+                        <div class="card-icon"><i class="fas fa-film"></i></div>
+                    </div>
+                    <div class="card-body">
+                        <h3>Video Editing</h3>
+                        <p>Short videos, reels, and cinematic edits.</p>
+                        <span class="card-link">
+                            Learn more
+                            <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+                        </span>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section class="cv" id="cv">
+        <div class="resume-page">
+
+        <!-- BADGE -->
+        <div class="page-badge">
+            <div class="badge">RESUME / CV</div>
+        </div>
+
+        <!-- PROFILE HERO -->
+        <div class="profile-hero">
+            <div class="profile-img-wrap">
+                <img class="profile-img" src="resume_image.png" alt="Elbert Jay Dingal" />
+            </div>
+            <div class="profile-info">
+                <h1>Elbert Jay <span>Dingal</span></h1>
+                <h3>Graphic Designer &nbsp;·&nbsp; Web Developer &nbsp;·&nbsp; Photographer</h3>
+                <div class="profile-contacts">
+                    <span><i class="fas fa-map-marker-alt"></i> Opol, Misamis Oriental, Philippines</span>
+                    <a href="mailto:elbertjaydingal@gmail.com"><i class="fas fa-envelope"></i> elbertjaydingal@gmail.com</a>
+                    <a href="#"><i class="fab fa-facebook"></i> facebook.com/EJD</a>
+                    <a href="#"><i class="fab fa-instagram"></i> @elbertjaydingal</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- GRID -->
+        <div class="resume-grid">
+
+            <!-- LEFT COLUMN -->
+            <div class="left-col">
+
+                <!-- SKILLS -->
+                <div class="cv-card">
+                    <div class="card-title"><i class="fas fa-star"></i> Skills</div>
+                    <div class="skill-item">
+                        <div class="skill-label"><span>Graphic Design</span><span>90%</span></div>
+                        <div class="skill-bar"><div class="skill-fill" style="width:90%"></div></div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-label"><span>Photography</span><span>85%</span></div>
+                        <div class="skill-bar"><div class="skill-fill" style="width:85%"></div></div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-label"><span>Web Development</span><span>80%</span></div>
+                        <div class="skill-bar"><div class="skill-fill" style="width:80%"></div></div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-label"><span>Video Editing</span><span>75%</span></div>
+                        <div class="skill-bar"><div class="skill-fill" style="width:75%"></div></div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-label"><span>UI/UX Design</span><span>70%</span></div>
+                        <div class="skill-bar"><div class="skill-fill" style="width:70%"></div></div>
+                    </div>
+                </div>
+
+                <!-- TOOLS -->
+                <div class="cv-card">
+                    <div class="card-title"><i class="fas fa-tools"></i> Tools & Software</div>
+                    <div class="tags-wrap">
+                        <span class="tag">Figma</span>
+                        <span class="tag">Adobe Photoshop</span>
+                        <span class="tag">Adobe Illustrator</span>
+                        <span class="tag">Canva</span>
+                        <span class="tag">VS Code</span>
+                        <span class="tag">HTML & CSS</span>
+                        <span class="tag">JavaScript</span>
+                        <span class="tag">Lightroom</span>
+                        <span class="tag">CapCut</span>
+                        <span class="tag">Adobe Premiere</span>
+                    </div>
+                </div>
+
+                <!-- LANGUAGES -->
+                <div class="cv-card">
+                    <div class="card-title"><i class="fas fa-language"></i> Languages</div>
+                    <div class="lang-item">
+                        <span>Filipino</span>
+                        <div class="lang-level">
+                            <div class="dot filled"></div><div class="dot filled"></div>
+                            <div class="dot filled"></div><div class="dot filled"></div>
+                            <div class="dot filled"></div>
+                        </div>
+                    </div>
+                    <div class="lang-item">
+                        <span>English</span>
+                        <div class="lang-level">
+                            <div class="dot filled"></div><div class="dot filled"></div>
+                            <div class="dot filled"></div><div class="dot filled"></div>
+                            <div class="dot"></div>
+                        </div>
+                    </div>
+                    <div class="lang-item">
+                        <span>Bisaya</span>
+                        <div class="lang-level">
+                            <div class="dot filled"></div><div class="dot filled"></div>
+                            <div class="dot filled"></div><div class="dot filled"></div>
+                            <div class="dot filled"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- INTERESTS -->
+                <div class="cv-card">
+                    <div class="card-title"><i class="fas fa-heart"></i> Interests</div>
+                    <div class="interest-grid">
+                        <div class="interest-item"><i class="fas fa-camera"></i>Photography</div>
+                        <div class="interest-item"><i class="fas fa-palette"></i>Art & Design</div>
+                        <div class="interest-item"><i class="fas fa-film"></i>Filmmaking</div>
+                        <div class="interest-item"><i class="fas fa-code"></i>Coding</div>
+                        <div class="interest-item"><i class="fas fa-music"></i>Music</div>
+                        <div class="interest-item"><i class="fas fa-gamepad"></i>Gaming</div>
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- RIGHT COLUMN -->
+            <div class="right-col">
+
+                <!-- ABOUT -->
+                <div class="cv-card">
+                    <div class="card-title"><i class="fas fa-user"></i> About Me</div>
+                    <p class="about-text">
+                        I am a passionate and creative individual from Opol, Misamis Oriental, Philippines, currently pursuing studies in Information Technology. I specialize in graphic design, photography, web development, and video editing. My goal is to deliver modern, visually appealing, and user-friendly digital work for clients and personal projects.
+                    </p>
+                </div>
+
+                <!-- EDUCATION -->
+                <div class="cv-card">
+                    <div class="card-title"><i class="fas fa-graduation-cap"></i> Education</div>
+                    <div class="timeline-item">
+                        <div class="tl-year">2025 — Present</div>
+                        <div class="tl-title">Bachelor of Science in Information Technology</div>
+                        <div class="tl-sub">Opol Community College · Opol, Misamis Oriental, Philippines</div>
+                        <div class="tl-desc">Focusing on web development, system design, UI/UX, and multimedia arts.</div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="tl-year">2021 — 2023</div>
+                        <div class="tl-title">Senior High School — Humms Strand</div>
+                        <div class="tl-sub">Opol National Secondary Technical School · Opol, Misamis Oriental, Philippines</div>
+                        <div class="tl-desc">Specialized in Information and Communications.</div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="tl-year">2015 — 2021</div>
+                        <div class="tl-title">Junior High School</div>
+                        <div class="tl-sub">Opol National Secondary Technical School · Opol, Misamis Oriental, Philippines</div>
+                    </div>
+                </div>
+
+                <!-- EXPERIENCE -->
+                <div class="cv-card">
+                    <div class="card-title"><i class="fas fa-briefcase"></i> Experience</div>
+                    <div class="timeline-item">
+                        <div class="tl-year">2024 — Present</div>
+                        <div class="tl-title">Freelance Graphic Designer</div>
+                        <div class="tl-sub">Self-Employed · Remote</div>
+                        <div class="tl-desc">Creating logos, social media graphics, posters, and branding materials for local clients and personal brands.</div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="tl-year">2023 — 2024</div>
+                        <div class="tl-title">Freelance Photographer</div>
+                        <div class="tl-sub">Self-Employed · Kabacan, Cotabato</div>
+                        <div class="tl-desc">Covering events, portraits, and product photography with professional editing.</div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="tl-year">2022 — 2023</div>
+                        <div class="tl-title">Web Development Projects</div>
+                        <div class="tl-sub">Academic & Personal · HTML / CSS / JavaScript</div>
+                        <div class="tl-desc">Built responsive portfolio and school project websites using modern web technologies.</div>
+                    </div>
+                </div>
+
+                <!-- ACHIEVEMENTS -->
+                <div class="cv-card">
+                    <div class="card-title"><i class="fas fa-trophy"></i> Achievements & Certifications</div>
+                    <div class="timeline-item">
+                        <div class="tl-year">2024</div>
+                        <div class="tl-title">Your Achievement / Certification Here</div>
+                        <div class="tl-sub">Issuing Organization</div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="tl-year">2023</div>
+                        <div class="tl-title">Your Achievement / Certification Here</div>
+                        <div class="tl-sub">Issuing Organization</div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- DOWNLOAD BUTTON -->
+        <div class="download-wrap">
+            <button class="btn-download" onclick="window.open('Resume.pdf')">
+                <i class="fas fa-download"></i> Download CV 
+            </button>
+        </div>
+
+    </div>
+    </section>
+
+    <section class="contact" id="contact">
+        <div class="contact-content">
+            <h1>Contact <span>Me</span></h1>
+            <p>Feel free to reach out to me for any inquiries or collaborations!<br>
+            You can contact me through the following channels:</p>
+
+            <div class="contact-info">
+                <h2>Contact <span>Information</span></h2>
+                <p><strong>Email:</strong> <a href="mailto:elbertjaydingal@gmail.com">elbertjaydingal@gmail.com</a></p>
+                <p><strong>Phone:</strong> +63 9102197408</p>
+                <p><strong>Address:</strong> Zone 0-2 Danao, Patag, Opol Misamis Oriental</p>
+            </div>
+        </div>
+
+        <div class="contact-form">
+            <form action="mailto:elbertjaydingal@gmail.com" method="post" enctype="text/plain">
+                <input type="text" name="name" placeholder="Your Name" required>
+                <input type="email" name="email" placeholder="Your Email" required>
+                <textarea name="message" placeholder="Your Message" required></textarea>
+                <button type="submit">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
